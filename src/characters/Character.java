@@ -11,6 +11,7 @@ public abstract class Character {
 
     public void castSpell(){}
     public void changeSpell(Spell newSpell){}
+    public void sayMainSpell(){}
 
     
 }

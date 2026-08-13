@@ -31,5 +31,12 @@ public class Harry extends Character {
 
 
     }
+
+    @Override
+    public void sayMainSpell(){
+
+        System.out.println(name + ": " + "mi mejor hechizo es " + mainSpell.name);
+
+    }
     
 }
